@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>GitHub Finder</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a href="#" class="navbar-brand">Github Finder</a>
+        </div>
+    </nav>
+    <!-- Search Container -->
+    <div class="container search-container">
+        <div class="card card-body search">
+            <h2>Search Github Users</h2>
+            <p>Enter a username to fetch a user profile and repos.</p>
+            <div class="form-group">
+                <input type="text" id="search-user" class="form-control" placeholder="Github Username...">
+            </div>
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+    <footer class="text-center bg-light p-4 mt-4">
+        Github Finder &copy; 2019 
+    </footer>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
